@@ -1,0 +1,11 @@
+email: nathan.wilson.512@gmail.com
+fullname: 'nathan wilson'
+title: overlord
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$dTo0rBNT9bSQVqC6YaTO7ey0GSs5i7b7fOjy.g52ALLSUKBs.NVbO
