@@ -1,5 +1,8 @@
 <?php
 
+// bring webhook in
+include("../refreshme.php");
+
 /**
  * @package    Grav.Core
  *
