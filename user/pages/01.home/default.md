@@ -9,5 +9,4 @@ body_classes: title-center title-h1h2
 
 It's not working, one more time from the top!
 
-MORE!
- let's keep testing
+If you're seeing this, webhooks **really** are working.
