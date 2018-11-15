@@ -3,10 +3,7 @@ title: Home
 body_classes: title-center title-h1h2
 ---
 
-# Nathan Wilson
+# Vert_EX
+## Nathan Wilson
 
-## If you're seeing this, that means my webhooks are working.
-
-It's not working, one more time from the top!
-
-If you're seeing this, webhooks **really** are working.
+! IMPORTANT: This is a personal sample webpage. This is not a secure site. Do not provide this site with any user information that is important: passwords, emails, main SSH keys, etc.
