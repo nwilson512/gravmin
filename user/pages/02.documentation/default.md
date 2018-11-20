@@ -100,11 +100,20 @@ my resume/cv
 
 In the structure above, you'll see that the content is all contained in a single folder. This allows us to build documents using a single source of modular topics. Now we can reuse shared topics. Neat, huh?
 
+The topics in modular content management consist of two parts: YAML frontmatter and the markdown content itself. YAML frontmatter contains any kind of useful metadata you can imagine, for example:
+
+  * Publish/Update date
+  * Product or category
+  * Related topics
+  * Topic type
+  * Author
+  * Anything else
+
 ### Setting up modular content infrastructure
 
 Modular content infrastructure isn't easy to set up. This requires quite a lot more forethought and management overhead than writing in a word processor, or even writing into a basic CMS. It requires a powerful content management system and the technical understanding to make that work.
 
-Want to learn more {page content field here}? [Hire Me!](google.com)
+Want to learn more {page content field here}? [Hire Me!](google.com). Except don't, since I have a job already, and they like me, and I like them. It's really quite a nice arrangement.
 
 # Design
 

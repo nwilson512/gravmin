@@ -3,6 +3,8 @@ title: Home
 body_classes: title-center title-h1h2
 ---
 
+![logo goes here](../images/circle.svg)
+
 # Vert_EX
 ## Nathan Wilson
 
