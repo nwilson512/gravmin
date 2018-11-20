@@ -13,3 +13,5 @@ Welcome to my dojo! I built this webpage to serve as a live example of the work 
 ## Oh Yeah!
 
 See those icons down there? Yeah, they don't work. Yet.
+
+(unless you don't, because I changed the theme)
