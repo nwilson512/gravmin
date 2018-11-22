@@ -2,20 +2,44 @@
 #front-banner{
   display: flex;
   margin:auto;
-  width: 50vw;
-  height: 50vw;
+  width: 47vw;
+  height: 47vw;
   min-width: 350px;
   min-height: 350px;
   border-radius: 50%;
 	background: linear-gradient(-45deg, #3900F8, #DD00F8, #39E9F8);
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 @keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-moz-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
 	}
