@@ -178,3 +178,26 @@ Tertiary greenish
 
 39E9F8
 
+
+# The content injection plugin
+
+You can inject content from elsewhere in the site using the following:
+
+The `page-inject` option inserts a page rendered with its template:
+
+`[plugin:page-inject](/route/to/page)`
+
+The `content-inject` option just inserts the plain content:
+
+`[plugin:content-inject](/url/path/to/file)`
+
+This requires that your pages have legitimate routes on the site. So they'll need to be pages in a folder. The folder doesn't need to be routable, and the
+
+
+content injection samples:
+
+[plugin:content-inject](/modular-topics/concept-topic)
+
+[plugin:content-inject](/modular-topics/task-topic)
+
+[plugin:content-inject](/modular-topics/reference-topic)
