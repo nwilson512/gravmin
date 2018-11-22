@@ -2,6 +2,11 @@
 title: Documentation
 ---
 
+This page will eventually be modular and serve as a jumping off point for the following categories:
+* Modular documentation (hook: Find out what modular documentation is, see how I write documentation, view examples)
+* About this site (hook: learn how this site is built, what technologies it is built on, and how you can build one just like it)
+* My API (hook: Play with my API, learn what it does and how it works)
+
 # How this site is built
 
 This site is built on a the following technologies:
@@ -93,16 +98,20 @@ With anything, it helps to have a plan. With a documentation website, doubly so.
 
 The bulk of the complexity with the site lies in the Documentation section, since that's what I do.
 
-Specifically within documentation:
-* how modular documentation works
-* how this site works, full steps for setting this site up
-* how my API works
+
 
 Other parts of the site:
 * my written articles
 * my resume/cv
+* my external writing samples
 
 
+
+
+### other documentation platforms
+
+* ASCIIdoc
+* Framemaker
 
 ### Modular Content Management
 
