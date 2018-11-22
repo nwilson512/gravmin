@@ -4,7 +4,7 @@ title: Documentation
 
 # How this site is built
 
-This site is built on a the following platforms:
+This site is built on a the following technologies:
 
 * Google Cloud Platform
 * Grav
@@ -12,10 +12,11 @@ This site is built on a the following platforms:
 
 I've added some plugins to make the site easier to use and look better, specifically:
 
-* [diagrams](https://github.com/OleVik/grav-plugin-nomnoml-uml-diagrams)
-* [Admin Panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)
+* [Diagrams](https://github.com/OleVik/grav-plugin-nomnoml-uml-diagrams)
+* [Admin panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)
+* [Content injector]
 
-I'm using a modified grav [theme](https://getgrav.org/downloads/themes)
+I'm using a modified quark grav [theme](https://getgrav.org/downloads/themes)
 
 ## HowTo
 
@@ -78,10 +79,10 @@ With anything, it helps to have a plan. With a documentation website, doubly so.
 [nom]
 [Home Page]
 [Documentation |
-  [example1] -> [content folder]
-  [example2] -> [content folder]
-  [example3] -> [content folder]
-  [content folder |
+  [example1] -> [modular topics folder]
+  [example2] -> [modular topics folder]
+  [example3] -> [modular topics folder]
+  [modular topics folder |
     [concept topics]
     [task topics]
     [reference topics]
@@ -139,7 +140,7 @@ Consider all of the steps that go into steaming rice with vegetables, on the sur
 Let's look again though, this simple task leaves a lot of questions unanswered:
 
 * How much of each ingredient do you add?
-* How do you cook it? In a pot, or a steamer?
+* How do you cook it? In a pot, or a steamer? And for how long?
 * What kind of rice are you using, and do you need to adjust the water added for different kinds of rice?
 * How do you measure the ingredients?
 
@@ -159,6 +160,11 @@ Equally important is knowing what not-to-write. To identify things that you shou
 * how many people will this detail impact?
 * Is this detail someone else's responsibility and can you leverage their documentation?
 
+Some examples of things that probably we probably wouldn't want to include in example documentation:
+
+* what is the meaning of life?
+* who makes rice cookers?
+* how long does the cook cycle last on the steam-o-matic steamer?
 
 You can break up this act into a series of DITA-esque topics.
 

@@ -13,7 +13,7 @@ body{
   border-radius: 50%;
 	background: linear-gradient(-45deg, #3900F8, #DD00F8, #39E9F8);
 	background-size: 400% 400%;
-	animation: Gradient 15s ease infinite;
+	animation: Gradient 25s ease infinite;
   flex-direction: column;
   justify-content: center;
   align-items: center;
