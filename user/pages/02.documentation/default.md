@@ -16,7 +16,7 @@ I've added some plugins to make the site easier to use and look better, specific
 * [Admin panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)
 * [Content injector]
 
-I'm using a modified quark grav [theme](https://getgrav.org/downloads/themes)
+I'm using a modified quark grav [theme](https://getgrav.org/downloads/themes).
 
 ## HowTo
 
@@ -93,9 +93,16 @@ With anything, it helps to have a plan. With a documentation website, doubly so.
 
 The bulk of the complexity with the site lies in the Documentation section, since that's what I do.
 
+Specifically within documentation:
+* how modular documentation works
+* how this site works, full steps for setting this site up
+* how my API works
+
 Other parts of the site:
-my written articles
-my resume/cv
+* my written articles
+* my resume/cv
+
+
 
 ### Modular Content Management
 
