@@ -191,7 +191,7 @@ The `content-inject` option just inserts the plain content:
 
 `[plugin:content-inject](/url/path/to/file)`
 
-This requires that your pages have legitimate routes on the site. So they'll need to be pages in a folder. The folder doesn't need to be routable, and the
+This requires that your pages have legitimate routes on the site. So they'll need to be pages in a folder. The folder doesn't need to be routable, and the pages don't need to be published, but they do need to follow the correct format of: `folder/page-folder/default.md`
 
 
 content injection samples:
