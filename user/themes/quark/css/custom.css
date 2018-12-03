@@ -12,7 +12,7 @@ body{
   min-height: 350px;
   border-radius: 50%;
 	background: linear-gradient(-45deg, #3900F8, #DD00F8, #39E9F8);
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	animation: Gradient 25s ease infinite;
   flex-direction: column;
   justify-content: center;
