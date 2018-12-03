@@ -19,7 +19,7 @@ I've added some plugins to make the site easier to use and look better, specific
 
 * [Diagrams](https://github.com/OleVik/grav-plugin-nomnoml-uml-diagrams)
 * [Admin panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)
-* [Content injector]
+* [Content injector](https://github.com/getgrav/grav-plugin-page-inject)
 
 I'm using a modified quark grav [theme](https://getgrav.org/downloads/themes).
 
@@ -44,7 +44,7 @@ full site on local -> full site in repo -> full site on GCP
 
 ### Start your dev server
 
-1. Nav to the location in which you cloned your repo (mine's in the default GitHub directory under Documents): `cd /Users/<username>/Documents/GitHub`
+1. Nav to the location in which you cloned your repo (mine's in the default GitHub directory under Documents): `cd /Users/<username>/Documents/GitHub/gravmin`
 2. Run your server `php -S localhost:8000 system/router.php`
 
 ## Fonts
