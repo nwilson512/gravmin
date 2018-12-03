@@ -150,4 +150,6 @@ At the time of writing, traffic and performance requirements are very small and 
 
 This webserver runs on a single `g1-small` Compute Engine instance. The instance is running a standard [LAMP stack deployment](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/lamp).
 
-The instance has access to 10GB of magnetic drive space. 
+The instance has access to 10GB of magnetic drive space.
+
+[plugin:content-inject](/modular-topics/task-create-repository)

@@ -1,5 +1,6 @@
 ---
 title: Documentation
+published: false
 ---
 
 This page will eventually be modular and serve as a jumping off point for the following categories:
