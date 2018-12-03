@@ -136,9 +136,18 @@ This requires that your pages have legitimate routes on the site. So they'll nee
 
 
 content injection samples:
-
 [plugin:content-inject](/modular-topics/concept-topic)
 
 [plugin:content-inject](/modular-topics/task-topic)
 
 [plugin:content-inject](/modular-topics/reference-topic)
+
+# Google Cloud Platform Details
+
+Google Cloud Platform (GCP) is large cloud services platform that competes with the likes of Amazon Web Services and Microsoft Azure. Cloud platforms are very large and complex topics, so I'll limit the discussion to the architecture of this site as it relates to GCP.
+
+At the time of writing, traffic and performance requirements are very small and limited a to development scope.
+
+This webserver runs on a single `g1-small` Compute Engine instance. The instance is running a standard [LAMP stack deployment](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/lamp).
+
+The instance has access to 10GB of magnetic drive space. 
