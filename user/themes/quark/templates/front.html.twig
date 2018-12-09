@@ -6,4 +6,25 @@
         <h2 class="front-banner-text">{{site.author.name}}</h2>
     </div>
       {{ page.content|raw }}
+      {% for p in page.collection %}
+        <h2>{{ p.title }}</h2>
+        <p>hi</p>
+      {% endfor %}
+
+      {# Draw the site pages #}
+      <div class="container front-site-pages">
+        <div class="columns">
+          {# from the grav documentation, still don't understand it particularly well #}
+          {% for p in page.find('/documentation-new').children if p != page %}
+            <div class="column col-2">
+              {# I still don't understand this #}
+              <i class="material-icons">{{ p.header.icon }}</i>
+            </div>
+            <div class="column col-10">
+              <a href="{{p.url}}"><h2>{{ p.title }}</h2>
+              <p>{{ p.header.hook }}</p></a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
   {% endblock %}

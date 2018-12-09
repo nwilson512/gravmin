@@ -1,5 +1,7 @@
 ---
-title: modular-doc
+title: Modular Documentation
+icon: create
+hook: "Find out what modular documentation is, see how I write documentation, and view sample documents"
 ---
 
 ### other documentation platforms

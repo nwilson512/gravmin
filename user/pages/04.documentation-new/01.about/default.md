@@ -1,5 +1,7 @@
 ---
 title: About
+icon: help
+hook: "Learn how this site is built, what technologies it is built on, and how you can build one just like it."
 ---
 
 # How this site is built
