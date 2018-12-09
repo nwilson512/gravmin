@@ -42,6 +42,34 @@ You can set up and run your own local implementation of this webserver:
 1. Nav to the location in which you cloned your repo (mine's in the default GitHub directory under Documents): `cd /Users/<username>/Documents/GitHub/gravmin`
 2. Run your server `php -S localhost:8000 system/router.php`
 
+
+## Modify the CSS
+
+! This implementation isn't great, consider building with the command line using something like `npm run watch`
+
+Use the main `theme.scss` file to build the CSS files. I'm using the [sass-autocompile](https://atom.io/packages/sass-autocompile) plugin.
+
+To set up the sass-autocompile plugin, do the following:
+
+  1. install it
+  2. add the following string to `filename pattern for 'compressed' compiled files`:
+  `../css-compiled/theme.min.css`
+  3. add the following path to the `Include paths`:
+  `user/themes/quark/scss`
+
+To build the CSS, do the following:
+
+  1. open `themes.scss`
+  3. save it
+
+To add a new css file for new template work, do the following:
+
+  1. create a new template partial under:
+  `user/themes/quark/scss/`
+  > Note: A partial is a file with a leading underscore in the file name: `_filename.scss`
+
+!!! The sass-autocompile will build the `theme.min.css` minified css file with the import sass files and place it in the correct `css-compiled` directory.
+
 ## Fonts
 
 I've also added some super dope google web fonts:
@@ -136,6 +164,7 @@ This requires that your pages have legitimate routes on the site. So they'll nee
 
 
 content injection samples:
+
 [plugin:content-inject](/modular-topics/concept-topic)
 
 [plugin:content-inject](/modular-topics/task-topic)
