@@ -1,6 +1,7 @@
 ---
 title: 'Create and Configure your GitHub Repository'
 published: false
+topic-type: 'task'
 ---
 
 # Create and Configure your GitHub Repository
@@ -41,5 +42,5 @@ Thumbs.db
 !!!! You should now have a repository on both your computer and GitHub.com with your `.gitignore` file.
 
 > This documentation contains steps sourced from the following blogs:
-  *	https://getgrav.org/blog/developing-with-github-part-2
-	* https://www.booleanworld.com/install-grav-cms-debian-ubuntu/
+  *	[getgrav.org](https://getgrav.org/blog/developing-with-github-part-2)
+	* [booleanworld.com](https://www.booleanworld.com/install-grav-cms-debian-ubuntu/)
