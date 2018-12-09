@@ -70,6 +70,17 @@ To add a new css file for new template work, do the following:
   `user/themes/quark/scss/`
   > Note: A partial is a file with a leading underscore in the file name: `_filename.scss`
 
+Pushing CSS changes to production:
+
+  1. commit everything to your github repository
+  2. ssh into prod
+  3. restart apache:
+  `sudo systemctl restart apache2`
+  4. verify the changes in your browser
+    * navigate to the site
+    * refresh your browser's cache:
+    `cmd + opt + r`
+
 !!! The sass-autocompile will build the `theme.min.css` minified css file with the import sass files and place it in the correct `css-compiled` directory.
 
 ## Fonts
