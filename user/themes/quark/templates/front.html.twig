@@ -2,8 +2,8 @@
 
   {% block content %}
     <div id="front-banner">
-        <h1 style="color:white;">{{site.title}}</h1>
-        <h2 style="color:white;">{{site.author.name}}</h2>
+        <h1 class="front-banner-text">{{site.title}}</h1>
+        <h2 class="front-banner-text">{{site.author.name}}</h2>
     </div>
       {{ page.content|raw }}
   {% endblock %}
