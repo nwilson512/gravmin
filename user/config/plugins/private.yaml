@@ -1,0 +1,37 @@
+enabled: true
+
+routes:
+  login: "/login"
+  logout: "/logout"
+
+# MUST BE AN ALPHANUMERIC CHAR
+# Generator : http://www.sethcardoza.com/tools/random-password-generator/
+session_ss: 4u4Fbg0d7gqBZNshhDjoKeymCBTQF2rZ
+
+
+private_site: true
+private_tag: hidden
+enable_username: false
+
+users:
+  no_user : 90ae6c4e3844da91765c6d08502aaeff019cd73f # By default, is password, is now "writers"
+
+texts:
+  h1 : Private Area
+  h2 : Please <strong>login</strong> to view this content...
+fields:
+  username:
+    label: "Username"
+    placeholder: "Enter your username"
+  password:
+    label: "Password"
+    placeholder: "Enter your password"
+  antispam:
+    label: "Antispam"
+    placeholder: "Please leave this field empty for Antispam"
+  login:
+    label: "Login"
+messages:
+  success: "You are logged in."
+  error: "Oops! There was a problem with your submission. Please try again or <a href='https://github.com/Diyzzuf/grav-plugin-private/issues' target='_blank'>report an issue </a>"
+  fail: "Oops! Something went wrong.. Try Again !"
