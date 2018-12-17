@@ -17,6 +17,7 @@ I've added some plugins to make the site easier to use and look better, specific
 * [Diagrams](https://github.com/OleVik/grav-plugin-nomnoml-uml-diagrams)
 * [Admin panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)
 * [Content injector](https://github.com/getgrav/grav-plugin-page-inject)
+* [Private](https://github.com/Diyzzuf/grav-plugin-private)
 
 I'm using a modified quark grav [theme](https://getgrav.org/downloads/themes).
 

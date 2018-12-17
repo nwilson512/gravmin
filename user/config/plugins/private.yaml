@@ -17,20 +17,20 @@ users:
   no_user : 90ae6c4e3844da91765c6d08502aaeff019cd73f # By default, is password, is now "writers"
 
 texts:
-  h1 : Private Area
-  h2 : Please <strong>login</strong> to view this content...
+  h1 : Welcome!
+  h2 : Please enter the access key Nathan gave you to access the site.
 fields:
   username:
     label: "Username"
     placeholder: "Enter your username"
   password:
-    label: "Password"
-    placeholder: "Enter your password"
+    label: "Access Key"
+    placeholder: "Enter the access key"
   antispam:
     label: "Antispam"
     placeholder: "Please leave this field empty for Antispam"
   login:
-    label: "Login"
+    label: "Enter Site"
 messages:
   success: "You are logged in."
   error: "Oops! There was a problem with your submission. Please try again or <a href='https://github.com/Diyzzuf/grav-plugin-private/issues' target='_blank'>report an issue </a>"
