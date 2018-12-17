@@ -38,12 +38,9 @@ body{
   h2 {
     text-align: left;
   }
-  i{
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 137px;
+  img.font-icons{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
   }
 }
