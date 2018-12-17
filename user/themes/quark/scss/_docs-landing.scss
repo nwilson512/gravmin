@@ -34,13 +34,26 @@ body{
 	}
 }
 
+// controls iterative list of site pages
 .front-site-pages{
-  h2 {
-    text-align: left;
+  // controls preview content for site pages
+  .content-space{
+    a p{
+      color: #50596c;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    h2 {
+      margin-top: 20px;
+      text-align: left;
+    }
   }
+  // controls icons displayed with previews
   img.font-icons{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
     width: 100%;
   }
 }
