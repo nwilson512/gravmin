@@ -12,7 +12,7 @@ This site is built on a the following technologies:
 * Grav
 * GitHub
 
-I've added some plugins to make the site easier to use and look better, specifically:
+I added the following plugins to make the site easier to use and look better:
 
 * [Diagrams](https://github.com/OleVik/grav-plugin-nomnoml-uml-diagrams)
 * [Admin panel](https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md)

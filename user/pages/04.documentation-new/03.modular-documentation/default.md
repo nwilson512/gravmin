@@ -1,13 +1,73 @@
 ---
-title: Modular Documentation
+title: How I Write
 icon: create
-hook: "Find out what modular documentation is, see how I write documentation, and view sample documents"
+hook: "See how I write documentation, find out what modular documentation is, and view sample documents"
 ---
 
-### other documentation platforms
+## My Documentation Process
+
+Much like developing a product, writing documentation moves through distinct phases. Adhere to these, and you set yourself up for success. The following phases summarize my understanding of an ideal documentation process:
+
+* Awareness
+* Preparation
+* Execution
+* Revision
+* Publication
+* Support
+
+### Awareness
+
+My documentation process starts long before I put pen to paper. Before I can consider writing effective documentation, I must know what I'm writing about, how it works, and who I'm working with. I generally break this down into the following two categories:
+
+* **Build Relationships**
+  * Scrum with engineering and PM
+  * Work with other writers
+  * Meet with support and QA
+
+* **Research**
+  * Read existing documentation, product plans, product specs
+  * Try the product, get stuck, break things
+  * Take notes
+  * Eat lunch with engineering
+
+By doing these actions on a regular basis, I grow my technical knowledge of the product, understand the direction it is heading as a product, and identify upcoming features that may require documentation.
+
+### Preparation
+
+Once I've identified a feature as requiring documentation, I prepare to write about it by narrowing my focus:
+
+* Announce ownership of documentation for a feature
+* Read feature specs
+* Reach out to stakeholders in engineering and QA
+* Acquire access to test environments
+* Perform user steps
+
+### Execution
+
+In this phase, I produce distinct deliverables:
+
+**Project plan (statement of work)**: A document that contains deadlines, isolates feature scope, identifies stakeholders, describes what work will be done.
+
+**Outline**: A document that specifies where in the existing documentation new writing will go, describes modifications to existing sections and new sections, plans the organizational layout of the document to be written.
+
+**Draft**: content-complete documentation written in accordance with the project plan and outline.
+
+### Revision
+
+Once I complete my draft, I send it for review to stakeholders and peers to ensure technical accuracy and quality of writing. I make requested edits and respond to feedback, always ensuring I clearly identify my request and specify a time-frame for responses.
+
+### Publication
+
+In this phase, I publish the document. Depending on the documentation infrastructure, this may require syntax conversion, merging branches, or deployment.
+
+### Support
+
+Just because a document has been published, does not mean it is perfect or requires no updates. I support my documents by reviewing analytics, responding to customer feedback, and providing content updates as the product changes.
+
+## Documentation platforms
 
 * ASCIIdoc
-* Framemaker
+* Madcap Flare
 
 ### Modular Content Management
 
@@ -24,7 +84,7 @@ The topics in modular content management consist of two parts: metadata (in this
 
 ### Setting up modular content infrastructure
 
-Modular content infrastructure isn't easy to set up. This requires quite a lot more forethought and management overhead than writing in a word processor, or even writing into a basic CMS (I'm looking you, WordPress). It requires a powerful content management system and the technical understanding to make that work.
+Modular content infrastructure isn't easy to set up; it requires quite a lot more forethought and management overhead than writing in a word processor, or even writing into a basic CMS (I'm looking you, WordPress). It requires a powerful content management system and the technical understanding to make that work.
 
 For more detailed information about how modular content infrastructure is set up on this website, sett the [about section](/documentation-new/about/)
 
